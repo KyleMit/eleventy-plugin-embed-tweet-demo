@@ -6,7 +6,6 @@ permalink: "/"
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f851427d-8792-4f86-837c-12ccb48c44fd/deploy-status)](https://app.netlify.com/sites/eleventy-embed-tweet/deploys)
 
-{{ "" | Cow }}
 
 ## Problem
 
@@ -120,4 +119,7 @@ CONSUMER_SECRET=********
 * [Peer Dependencies](https://nodejs.org/es/blog/npm/peer-dependencies/)
 * [Installing a local module using npm?](https://stackoverflow.com/a/8089029/1366033)
 * [Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
-* [](https://docs.npmjs.com/creating-and-publishing-scoped-public-packages)
+* [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
+* [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
+
+//"eleventy-plugin-embed-tweet": "file:../eleventy-plugin-embed-tweet"
