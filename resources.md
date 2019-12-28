@@ -11,6 +11,10 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Escape curly brackets in nunjucks](https://github.com/mozilla/nunjucks/issues/388)
 * [Creating an 11ty Plugin - SVG Embed Tool](https://bryanlrobinson.com/blog/creating-11ty-plugin-embed-svg-contents/)
 
+## Nunjucks
+
+* [nunjucks: Template not found](https://stackoverflow.com/q/39050788/1366033)
+
 ## Twitter API
 
 * [Apps Dashboard](https://developer.twitter.com/en/apps)
@@ -46,6 +50,10 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Why does Node.js' fs.readFile() return a buffer instead of string?](https://stackoverflow.com/q/6456864/1366033)
 * [How do I get the path to the current script with Node.js?](https://stackoverflow.com/q/3133243/1366033)
 * [I'd like to remove the filename from a path using JavaScript](https://stackoverflow.com/a/59506376/1366033)
+* [vscode debug code in node_modules directory](https://stackoverflow.com/a/53081698/1366033)
+
+## JavaScript
+
 * [javascript check if property is undefined](https://stackoverflow.com/a/416327/1366033)
 * [Easy Creation of HTML with JavaScript’s Template Strings](https://wesbos.com/template-strings-html/)
 * [HTML Templates via JavaScript Template Literals](https://css-tricks.com/html-templates-via-javascript-template-literals/)
