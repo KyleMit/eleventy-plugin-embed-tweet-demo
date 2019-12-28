@@ -9,6 +9,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Ignore Directory](https://www.11ty.dev/docs/ignores/)
 * [Escape curly brackets in nunjucks](https://github.com/mozilla/nunjucks/issues/604)
 * [Escape curly brackets in nunjucks](https://github.com/mozilla/nunjucks/issues/388)
+* [Creating an 11ty Plugin - SVG Embed Tool](https://bryanlrobinson.com/blog/creating-11ty-plugin-embed-svg-contents/)
 
 ## Twitter API
 
@@ -46,11 +47,14 @@ A stash for helpful articles, references, documentation looked up along the way
 * [How do I get the path to the current script with Node.js?](https://stackoverflow.com/q/3133243/1366033)
 * [I'd like to remove the filename from a path using JavaScript](https://stackoverflow.com/a/59506376/1366033)
 * [javascript check if property is undefined](https://stackoverflow.com/a/416327/1366033)
+* [Easy Creation of HTML with JavaScript’s Template Strings](https://wesbos.com/template-strings-html/)
+* [HTML Templates via JavaScript Template Literals](https://css-tricks.com/html-templates-via-javascript-template-literals/)
 
 ## NPM
 
 * [Peer Dependencies](https://nodejs.org/es/blog/npm/peer-dependencies/)
 * [Installing a local module using npm?](https://stackoverflow.com/a/8089029/1366033)
+* [npm link docs](https://docs.npmjs.com/cli/link)
 * [Contributing packages to the registry](https://docs.npmjs.com/packages-and-modules/contributing-packages-to-the-registry)
 * [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 * [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
