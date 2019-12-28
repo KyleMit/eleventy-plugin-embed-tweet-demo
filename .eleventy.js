@@ -1,15 +1,19 @@
+const CleanCSS = require("clean-css");
 
 module.exports = function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("assets");
     eleventyConfig.addPassthroughCopy("favicon.ico");
+    eleventyConfig.addFilter("cssmin", source => new CleanCSS({}).minify(cssSource).styles);
 
+    /* embed tweet plugin setup */
     const pluginEmbedTweet = require("eleventy-plugin-embed-tweet")
     let tweetEmbedOptions = {
-        cacheDirectory: '',
-        useInlineStyles: false 
+        cacheDirectory: '',    // default: ''
+        useInlineStyles: false // default: true
     }
     eleventyConfig.addPlugin(pluginEmbedTweet, tweetEmbedOptions);
+
 
     return {
         markdownTemplateEngine: "njk",
