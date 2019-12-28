@@ -13,31 +13,34 @@
     <meta name="title" content="{{title}}">
     <meta name="description" content="A brief guide on how to server side render a tweet">
 
+    <link href="https://fonts.googleapis.com/css?family=Lato|Nunito&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/site.css">
-    <style type="text/css">
-        {% tweetStyles %}
-    </style>
+
+    {% tweetStyles %}
 </head>
 <body class="page">
 
     <header>
-       <h1> {{title}} </h1>
+      <nav class="nav">
+            <ul>
+                <li><a href="/" class='{{ "active" if "/" == page.url }}'>Home</a></li>
+                <li><a href="/static/" class='{{ "active" if "/static/" in page.url }}'>Static Demo</a></li>
+                <li><a href="/client/" class='{{ "active" if "/client/" in page.url }}'>Client Demo</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="content">
-        
+
+       <h1> {{title}} </h1>
+
         {{ content | safe }}
 
     </main>
 
     <footer>
-        <nav class="nav">
-            <ul>
-                <li><a href="/">Read Me</a></li>
-                <li><a href="/static/">Static Embed</a></li>
-                <li><a href="/client/">Client Embed</a></li>
-            </ul>
-        </nav>
+      <a href="https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo">KyleMit</a>  &copy; 2019 
+      — Built with 💗 with <a href="https://www.11ty.dev/">11ty</a>
     </footer>
 
 </body>
