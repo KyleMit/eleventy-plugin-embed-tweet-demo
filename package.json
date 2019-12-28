@@ -13,6 +13,6 @@
   "dependencies": {
     "@11ty/eleventy": "^0.10.0-beta.1",
     "clean-css": "^4.2.1",
-    "eleventy-plugin-embed-tweet": "^0.1.3"
+    "eleventy-plugin-embed-tweet": "^0.1.4"
   }
 }

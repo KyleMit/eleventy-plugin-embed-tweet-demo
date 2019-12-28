@@ -42,6 +42,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * *ALT*: [erisanolasheni/**custom-env**](https://github.com/erisanolasheni/custom-env)
 * [How do you properly promisify request?](https://stackoverflow.com/q/28308131/1366033)
 * [Using filesystem in node.js with async / await](https://stackoverflow.com/a/58332163/1366033)
+* [Why does Node.js' fs.readFile() return a buffer instead of string?](https://stackoverflow.com/q/6456864/1366033)
 * [How do I get the path to the current script with Node.js?](https://stackoverflow.com/q/3133243/1366033)
 * [I'd like to remove the filename from a path using JavaScript](https://stackoverflow.com/a/59506376/1366033)
 * [javascript check if property is undefined](https://stackoverflow.com/a/416327/1366033)

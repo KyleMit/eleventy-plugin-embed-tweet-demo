@@ -14,15 +14,14 @@
     <meta name="description" content="A brief guide on how to server side render a tweet">
 
     <link href="https://fonts.googleapis.com/css?family=Lato|Nunito&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/site.css">
 
     {# capture the CSS content as a Nunjucks variable #}
-    {% set css %}
-        {% include "site.css" %}
-        {% tweetStyles %}
-    {% endset %}
+    {% set css %} {% include "site.css" %}{% endset %}
     {# feed it through our cssmin filter to minify #}
-    <style type="text/css">{{ css | cssmin | safe }}</style>
+    <style type="text/css">
+        {{ css | cssmin | safe }}
+        {% tweetStyles %}
+    </style>
     
 </head>
 <body class="page">
