@@ -9,8 +9,8 @@ module.exports = function(eleventyConfig) {
     /* embed tweet plugin setup */
     const pluginEmbedTweet = require("eleventy-plugin-embed-tweet")
     let tweetEmbedOptions = {
-        cacheDirectory: '',    // default: ''
-        useInlineStyles: false // default: true
+        cacheDirectory: './tweets/',    // default: ''
+        useInlineStyles: false          // default: true
     }
     eleventyConfig.addPlugin(pluginEmbedTweet, tweetEmbedOptions);
 

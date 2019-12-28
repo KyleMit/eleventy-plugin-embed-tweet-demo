@@ -7,9 +7,21 @@
     "build": "npx eleventy",
     "serve": "npx eleventy --serve"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo.git"
+  },
+  "keywords": [
+    "eleventy",
+    "eleventy-plugin",
+    "twitter"
+  ],
+  "author": {
+    "name": "Kyle Mitofsky",
+    "email": "kylemit@gmail.com",
+    "url": "http://kylemit.dev/"
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0-beta.1",
     "clean-css": "^4.2.1",

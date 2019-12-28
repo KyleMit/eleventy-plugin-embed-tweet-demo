@@ -1,3 +1,4 @@
+/* page layout */
 *,
 *:before,
 *:after {
@@ -25,12 +26,24 @@ body.page {
     font-size: 18px;
 }
 
-h1,h2,h3 {
-    font-family: 'Nunito', sans-serif;
-}
-
 main.content {
     padding: 0 15px;
+}
+
+/* page specific styles */
+.center .content {
+    text-align: center;
+}
+
+.center .tweet-card,
+.center twitter-widget {
+    margin: 10px auto;
+}
+
+
+/* typography */
+h1,h2,h3 {
+    font-family: 'Nunito', sans-serif;
 }
 
 img {
@@ -44,6 +57,7 @@ pre {
     overflow-x: auto;
 }
 
+/* nav */
 .nav ul {
     display: flex;
     padding-left: 0;
@@ -79,7 +93,7 @@ pre {
     border-bottom-color: hsl(203, 83%, 62%);
 }
 
-
+/* footer */
 footer {
     background-color: #434343;
     color: white;

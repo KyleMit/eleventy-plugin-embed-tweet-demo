@@ -1,6 +1,7 @@
 ---
 layout: default-layout.njk
 title: "Client Embedded Tweet"
+class: 'center'
 ---
 
 Here's an example of an embedded tweet

@@ -10,6 +10,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Escape curly brackets in nunjucks](https://github.com/mozilla/nunjucks/issues/604)
 * [Escape curly brackets in nunjucks](https://github.com/mozilla/nunjucks/issues/388)
 * [Creating an 11ty Plugin - SVG Embed Tool](https://bryanlrobinson.com/blog/creating-11ty-plugin-embed-svg-contents/)
+* [How to disable cross-device action mirroring functionality of BrowserSync?](https://stackoverflow.com/a/59514293/1366033)
 
 ## Nunjucks
 
@@ -51,12 +52,22 @@ A stash for helpful articles, references, documentation looked up along the way
 * [How do I get the path to the current script with Node.js?](https://stackoverflow.com/q/3133243/1366033)
 * [I'd like to remove the filename from a path using JavaScript](https://stackoverflow.com/a/59506376/1366033)
 * [vscode debug code in node_modules directory](https://stackoverflow.com/a/53081698/1366033)
+* [Is it possible to blackbox vendor code when using VSCode's node debugger?](https://stackoverflow.com/a/48621036/1366033)
+* [writeFile no such file or directory](https://stackoverflow.com/a/50927704/1366033)
+* [Determine project root from a running node.js application](https://stackoverflow.com/a/18721515/1366033)
+
 
 ## JavaScript
 
 * [javascript check if property is undefined](https://stackoverflow.com/a/416327/1366033)
 * [Easy Creation of HTML with JavaScript’s Template Strings](https://wesbos.com/template-strings-html/)
 * [HTML Templates via JavaScript Template Literals](https://css-tricks.com/html-templates-via-javascript-template-literals/)
+* [ES6 Object Destructuring Default Parameters](https://stackoverflow.com/a/26578323/1366033)
+* [How do I replace all line breaks in a string with `<br />` tags?](https://stackoverflow.com/a/784547/1366033)
+
+## CSS
+
+* [CSS Image size, how to fill, not stretch?](https://stackoverflow.com/a/29103071/1366033)
 
 ## NPM
 
@@ -67,3 +78,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Creating and publishing unscoped public packages](https://docs.npmjs.com/creating-and-publishing-unscoped-public-packages)
 * [How to publish packages to npm (the way the industry does things)](https://zellwk.com/blog/publish-to-npm/)
 * [What is the meaning of the “at” (@) prefix on npm packages?](https://stackoverflow.com/q/36667258/1366033)
+
+## Netlify
+
+* [Environment Variables](https://docs.netlify.com/configure-builds/environment-variables/)

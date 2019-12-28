@@ -7,6 +7,10 @@
             "name": "Launch 11ty",
             "program": "${workspaceFolder}/node_modules/@11ty/eleventy/cmd.js",
             "args": [],
+            "skipFiles": [
+                "<node_internals>/**",
+                "node_modules/request/*.js",
+            ],
             "runtimeArgs": [
                 "--preserve-symlinks"
             ]
