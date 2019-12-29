@@ -30,6 +30,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Can I fetch the tweet from Twitter if I know the tweet's id?](https://stackoverflow.com/q/897107/1366033)
 * [Search for tweets with t.co rewritten links](https://stackoverflow.com/q/7561016/1366033)
 * [Twitter api text field value is truncated](https://stackoverflow.com/a/40454382/1366033)
+* [Tweets with multiple photos](https://leancrew.com/all-this/2014/06/tweets-with-multiple-photos/)
 
 ### OAuth
 
@@ -55,7 +56,7 @@ A stash for helpful articles, references, documentation looked up along the way
 * [Is it possible to blackbox vendor code when using VSCode's node debugger?](https://stackoverflow.com/a/48621036/1366033)
 * [writeFile no such file or directory](https://stackoverflow.com/a/50927704/1366033)
 * [Determine project root from a running node.js application](https://stackoverflow.com/a/18721515/1366033)
-
+* [How to set environment variables from within package.json](https://stackoverflow.com/a/27090755/1366033)
 
 ## JavaScript
 

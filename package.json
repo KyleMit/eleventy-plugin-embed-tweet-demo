@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
-    "serve": "npx eleventy --serve"
+    "serve": "npx eleventy --serve",
+    "full-build": "set CACHE_BUST=true && npx eleventy",
+    "clear-cache": "rm -rf tweets"
   },
   "license": "MIT",
   "repository": {
