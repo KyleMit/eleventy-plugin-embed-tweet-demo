@@ -26,6 +26,9 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
+* [Plugin Package on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet)
+* [Plugin Demo on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo)
+
 ## Requirements
 
 Requires signing up for free [twitter developer API account](https://developer.twitter.com/en/apply-for-access) - see docs for walkthrough
