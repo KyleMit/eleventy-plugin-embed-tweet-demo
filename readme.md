@@ -38,9 +38,8 @@ Embed a tweet anywhere you can use nunjucks templates using a shortcode with the
 
 ### Nunjucks
 
-```js
-{% tweet "1188837207206977536" %}
-```
+<pre><code>&#x007b;% tweet "1188837207206977536" %&#x007d;</code></pre>
+
 
 > **Note**: ID must be passed as a string because [long numbers will truncate in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER))
 
@@ -58,11 +57,11 @@ Demo project available on github at [KyleMit/eleventy-plugin-embed-tweet-demo](h
 
 ## Todo
 
-* [ ] Destructure API JSON before caching - only store info we care about
+* [x] Destructure API JSON before caching - only store info we care about
+* [x] Figure out more consistent CSS structure
+* [x] Handle `<br>` elements
+* [ ] Better docs
 * [ ] Cache profile and media images
-* [ ] Much better docs
-* [ ] Figure out more consistent CSS structure
-* [ ] Handle `<br>` elements
 * [ ] Automate `npm publish`
 
 ## Docs
@@ -111,9 +110,7 @@ eleventyConfig.addPlugin(pluginEmbedTweet, {useInlineStyles: false});
 
 And then make sure to include the styles somewhere else on your page like this:
 
-```html
-<style type="text/css">{% tweetStyles %}</style>
-```
+<pre><code>&lt;style type="text/css"&gt;&#x007b;% tweetStyles %&#x007d;&lt;/style&gt;</code></pre>
 
 **Feel free to also add your own styles** and customize however you'd like.  The official twitter widget is implemented as a web component and [makes styling through the shadow dom really tricky](https://stackoverflow.com/a/59493027/1366033) - but this sits as flat html on your page - so customize however you'd like
 
