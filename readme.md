@@ -48,7 +48,9 @@ Embed a tweet anywhere you can use nunjucks templates using a shortcode with the
 
 ## Demo
 
-Demo project available on github at [KyleMit/eleventy-plugin-embed-tweet-demo](https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo) and live version hosted on [eleventy-embed-tweet.netlify.com/](https://eleventy-embed-tweet.netlify.com/)
+Demo project available on github at [KyleMit/eleventy-plugin-embed-tweet-demo](https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo)
+
+And live version published on [eleventy-embed-tweet.netlify.com/](https://eleventy-embed-tweet.netlify.com/)
 
 ## Goals
 
@@ -70,6 +72,8 @@ Demo project available on github at [KyleMit/eleventy-plugin-embed-tweet-demo](h
 ## Docs
 
 ### Setting up Twitter Account
+
+You'll need to [Apply for Access](https://developer.twitter.com/en/apply-for-access) to the twitter API - but it's really not as intimidating as I thought it would be.  Took about 5-10 minutes to be fully authenticated and get credentials.  I selected "Doing Something Else" as "Embedding Tweets on a Website" will redirect to the client side publishing tool which is what we're trying to avoid.
 
 ### Setting .ENV variables
 
