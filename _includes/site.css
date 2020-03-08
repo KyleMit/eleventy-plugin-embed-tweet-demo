@@ -1,4 +1,5 @@
 /* page layout */
+
 *,
 *:before,
 *:after {
@@ -30,7 +31,9 @@ main.content {
     padding: 0 15px;
 }
 
+
 /* page specific styles */
+
 .center .content {
     text-align: center;
 }
@@ -42,10 +45,15 @@ main.content {
 
 
 /* typography */
-h1,h2,h3 {
+
+h1,
+h2,
+h3 {
     font-family: 'Nunito', sans-serif;
+    margin-top: 1.5em;
 }
 
+margin-top: 1.5em;
 img {
     max-width: 100%;
 }
@@ -57,7 +65,16 @@ pre {
     overflow-x: auto;
 }
 
+blockquote:not(.tweet-card) {
+    border-left: 3px solid grey;
+    padding: 0 15px;
+    margin: 15px 0;
+    background: #f9f9f9;
+}
+
+
 /* nav */
+
 .nav ul {
     display: flex;
     padding-left: 0;
@@ -93,7 +110,9 @@ pre {
     border-bottom-color: hsl(203, 83%, 62%);
 }
 
+
 /* footer */
+
 footer {
     background-color: #434343;
     color: white;

@@ -4,12 +4,10 @@ title: "Eleventy Embedded Tweet Demo"
 permalink: "/"
 ---
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f851427d-8792-4f86-837c-12ccb48c44fd/deploy-status)](https://app.netlify.com/sites/eleventy-embed-tweet/deploys)
-
 
 ## Installation
 
-Install [on npm](https://www.npmjs.com/package/eleventy-plugin-embed-tweet)
+Available [on npm](https://www.npmjs.com/package/eleventy-plugin-embed-tweet), 
 
 ```bash
 npm install eleventy-plugin-embed-tweet --save
@@ -26,8 +24,7 @@ module.exports = function(eleventyConfig) {
 };
 ```
 
-* [Plugin Package on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet)
-* [Plugin Demo on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo)
+[Plugin Repo on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet) | [Demo Repo on Github](https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo)
 
 ## Requirements
 
@@ -41,7 +38,7 @@ Embed a tweet anywhere you can use nunjucks templates using a shortcode with the
 
 ### Nunjucks
 
-<pre><code>&#x007b;% tweet "1188837207206977536" %&#x007d;</code></pre>
+<pre class="language-html"><code>&#x007b;% tweet "1188837207206977536" %&#x007d;</code></pre>
 
 
 > **Note**: ID must be passed as a string because [long numbers will truncate in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER))
@@ -79,14 +76,14 @@ You'll need to [Apply for Access](https://developer.twitter.com/en/apply-for-acc
 
 Once you sign up for a twitter account, you'll need to create a file named `.env` at the project root - it contains keys so it's excluded by the `.gitignore` so each person will have to manually create their own:
 
-```env
+```ini
 TOKEN=********
 TOKEN_SECRET=********
 CONSUMER_KEY=********
 CONSUMER_SECRET=********
 ```
 
-Remember to update your `.gitignore` with `.env` so you don't commit your secrets
+> **Warning**: Remember to update your `.gitignore` with `.env` so you don't commit your secrets
 
 You'll also have to add the environment variables on your build server.
 
@@ -117,7 +114,7 @@ eleventyConfig.addPlugin(pluginEmbedTweet, {useInlineStyles: false});
 
 And then make sure to include the styles somewhere else on your page like this:
 
-<pre><code>&lt;style type="text/css"&gt;&#x007b;% tweetStyles %&#x007d;&lt;/style&gt;</code></pre>
+<pre class="language-html"><code>&lt;style type="text/css"&gt;&#x007b;% tweetStyles %&#x007d;&lt;/style&gt;</code></pre>
 
 **Feel free to also add your own styles** and customize however you'd like.  The official twitter widget is implemented as a web component and [makes styling through the shadow dom really tricky](https://stackoverflow.com/a/59493027/1366033) - but this sits as flat html on your page - so customize however you'd like
 
