@@ -2,6 +2,7 @@
 layout: default-layout.njk
 title: "Eleventy Embedded Tweet Demo"
 permalink: "/"
+templateEngineOverride: md, njk
 ---
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f851427d-8792-4f86-837c-12ccb48c44fd/deploy-status)](https://app.netlify.com/sites/eleventy-embed-tweet/deploys)
@@ -41,9 +42,16 @@ Embed a tweet anywhere you can use nunjucks templates using a shortcode with the
 
 ### Nunjucks
 
-<pre><code>&#x007b;% tweet "1188837207206977536" %&#x007d;</code></pre>
+Use like this:
 
 
+<!-- {% raw %} -->
+```njk
+{% tweet "1188837207206977536" %}
+```
+<!-- {% endraw %} -->
+
+[title](url)
 > **Note**: ID must be passed as a string because [long numbers will truncate in JS](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER))
 
 ## Demo
