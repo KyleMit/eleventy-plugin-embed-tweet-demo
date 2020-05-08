@@ -2,7 +2,7 @@
 layout: default-layout.njk
 title: "Eleventy Embedded Tweet Demo"
 permalink: "/"
-templateEngineOverride: md, njk
+templateEngineOverride: md
 ---
 
 
@@ -121,7 +121,12 @@ eleventyConfig.addPlugin(pluginEmbedTweet, {useInlineStyles: false});
 
 And then make sure to include the styles somewhere else on your page like this:
 
-<pre class="language-html"><code>&lt;style type="text/css"&gt;&#x007b;% tweetStyles %&#x007d;&lt;/style&gt;</code></pre>
+<!-- {% raw %} -->
+```html
+<style type="text/css">{% tweetStyles %}</style>
+```
+<!-- {% endraw %} -->
+
 
 **Feel free to also add your own styles** and customize however you'd like.  The official twitter widget is implemented as a web component and [makes styling through the shadow dom really tricky](https://stackoverflow.com/a/59493027/1366033) - but this sits as flat html on your page - so customize however you'd like
 
