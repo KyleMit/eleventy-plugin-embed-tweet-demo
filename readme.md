@@ -8,7 +8,7 @@ templateEngineOverride: md
 
 ## Installation
 
-Available [on npm](https://www.npmjs.com/package/eleventy-plugin-embed-tweet), 
+Available [on npm](https://www.npmjs.com/package/eleventy-plugin-embed-tweet),
 
 ```bash
 npm install eleventy-plugin-embed-tweet --save
@@ -42,7 +42,7 @@ Embed a tweet anywhere you can use nunjucks templates using a shortcode with the
 Use like this:
 
 <!-- {% raw %} -->
-```njk
+```handlebars
 {% tweet "1188837207206977536" %}
 ```
 <!-- {% endraw %} -->
