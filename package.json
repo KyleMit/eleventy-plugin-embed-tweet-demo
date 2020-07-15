@@ -1,33 +1,33 @@
 {
-  "name": "eleventy-plugin-embed-tweet-demo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve",
-    "full-build": "set CACHE_BUST=true && npx eleventy",
-    "clear-cache": "rm -rf tweets"
-  },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo.git"
-  },
-  "keywords": [
-    "eleventy",
-    "eleventy-plugin",
-    "twitter"
-  ],
-  "author": {
-    "name": "Kyle Mitofsky",
-    "email": "kylemit@gmail.com",
-    "url": "http://kylemit.dev/"
-  },
-  "dependencies": {
-    "@11ty/eleventy": "^0.10.0-beta.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "clean-css": "^4.2.1",
-    "eleventy-plugin-embed-tweet": "^0.2.0"
-  }
+    "name": "eleventy-plugin-embed-tweet-demo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx eleventy",
+        "serve": "npx eleventy --serve",
+        "full-build": "set CACHE_BUST=true && npx eleventy",
+        "clear-cache": "rm -rf tweets"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KyleMit/eleventy-plugin-embed-tweet-demo.git"
+    },
+    "keywords": [
+        "eleventy",
+        "eleventy-plugin",
+        "twitter"
+    ],
+    "author": {
+        "name": "Kyle Mitofsky",
+        "email": "kylemit@gmail.com",
+        "url": "http://kylemit.dev/"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^0.11.0",
+        "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+        "clean-css": "^4.2.1",
+        "eleventy-plugin-embed-tweet": "^0.3.0"
+    }
 }
