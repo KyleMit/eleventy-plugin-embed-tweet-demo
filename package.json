@@ -25,7 +25,7 @@
         "url": "http://kylemit.dev/"
     },
     "dependencies": {
-        "@11ty/eleventy": "^0.12.1",
+        "@11ty/eleventy": "^1.0.2",
         "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.0",
         "clean-css": "^5.1.2",
         "eleventy-plugin-embed-tweet": "^0.3.3"
